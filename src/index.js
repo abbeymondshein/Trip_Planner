@@ -21,7 +21,11 @@ new mapboxgl.Marker(markerDomEl)
     .setLngLat([-74.009151, 40.705086])
     .addTo(map);
 //51.163692,-1.8580739
-const marker = buildMarker("activity", [-74.0017791, 40.719969]);
+
+
+const marker = buildMarker("hotel", [-74.0017791, 40.719969]);
+console.log("marker",typeof marker)
+console.dir(marker)
 marker.addTo(map);
 
 /*
